@@ -33,11 +33,13 @@ export default function Home() {
                 src={pokemon?.imageURL || "/logo.png"}
                 layout="fill"
                 className="blur-lg"
+                alt="pokemon"
             />
             <div className="flex flex-col items-center justify-center relative top-0 right-0 left-0">
                 <img
                     className="w-40 h-40 md:w-64 md:h-64"
                     src="https://www.freepnglogos.com/uploads/pokemon-logo-png-0.png"
+                    alt="logo"
                 />
                 <div className="flex flex-col justify-evenly md:h-auto md:flex-row md:w-96 ">
                     <input
@@ -87,6 +89,7 @@ export default function Home() {
                                 src="/download.png"
                                 className="h-32"
                                 className="animate-bounce p-5"
+                                alt="pokemon_ball"
                             />
                         </div>
                     )}
