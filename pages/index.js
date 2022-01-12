@@ -87,7 +87,6 @@ export default function Home() {
                         <div className="w-36 h-36 md:w-48 md:h-48 flex justify-center items-center">
                             <img
                                 src="/download.png"
-                                className="h-32"
                                 className="animate-bounce p-5"
                                 alt="pokemon_ball"
                             />
